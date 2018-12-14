@@ -13,6 +13,7 @@
 		FBB7A43E21C16F8500E93834 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBB7A43D21C16F8500E93834 /* Assets.xcassets */; };
 		FBB7A44121C16F8500E93834 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBB7A43F21C16F8500E93834 /* LaunchScreen.storyboard */; };
 		FBB7A44E21C170F100E93834 /* Internet Screen Topics(1).pdf in Resources */ = {isa = PBXBuildFile; fileRef = FBB7A44D21C170F100E93834 /* Internet Screen Topics(1).pdf */; };
+		FBFF99B621C405AA00381BD5 /* InternetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFF99B521C405AA00381BD5 /* InternetDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		FBB7A44021C16F8500E93834 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FBB7A44221C16F8500E93834 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FBB7A44D21C170F100E93834 /* Internet Screen Topics(1).pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Internet Screen Topics(1).pdf"; path = "../../../../../Downloads/Internet Screen Topics(1).pdf"; sourceTree = "<group>"; };
+		FBFF99B521C405AA00381BD5 /* InternetDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				FBB7A43821C16F5800E93834 /* ViewController.swift */,
+				FBFF99B521C405AA00381BD5 /* InternetDetailViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -164,6 +167,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FBB7A43921C16F5800E93834 /* ViewController.swift in Sources */,
+				FBFF99B621C405AA00381BD5 /* InternetDetailViewController.swift in Sources */,
 				FBB7A43721C16F5800E93834 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
