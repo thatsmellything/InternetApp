@@ -16,7 +16,34 @@
                     <view key="view" contentMode="scaleToFill" id="cco-Sb-7KG">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="60a-zP-mBe">
+                                <rect key="frame" x="166" y="109" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <wkWebView contentMode="scaleToFill" horizontalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gkw-RT-j4F">
+                                <rect key="frame" x="0.0" y="416" width="375" height="190"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="190" id="VQu-ZW-w43"/>
+                                </constraints>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="gkw-RT-j4F" secondAttribute="trailing" id="05V-r6-CGb"/>
+                            <constraint firstItem="gkw-RT-j4F" firstAttribute="centerX" secondItem="fnQ-Oz-mHa" secondAttribute="centerX" id="7Be-Gk-SlU"/>
+                            <constraint firstItem="fnQ-Oz-mHa" firstAttribute="bottom" secondItem="gkw-RT-j4F" secondAttribute="bottom" constant="47" id="9GB-xP-C1q"/>
+                            <constraint firstItem="60a-zP-mBe" firstAttribute="centerX" secondItem="fnQ-Oz-mHa" secondAttribute="centerX" id="MhK-Ts-vjo"/>
+                            <constraint firstItem="gkw-RT-j4F" firstAttribute="leading" secondItem="cco-Sb-7KG" secondAttribute="leading" id="PVw-8p-CsP"/>
+                            <constraint firstItem="gkw-RT-j4F" firstAttribute="width" secondItem="cco-Sb-7KG" secondAttribute="width" id="dCU-Jd-dLN"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="fnQ-Oz-mHa"/>
                     </view>
                     <navigationItem key="navigationItem" id="8h6-qd-8Y7"/>
