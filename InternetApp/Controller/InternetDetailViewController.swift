@@ -36,7 +36,6 @@ class InternetDetailViewController: UIViewController
         {
             if(detailTitle?.range(of: "Definitions", options: .caseInsensitive) != nil)
             {
-                
                 loadPDF()
             }
             else
@@ -68,7 +67,7 @@ class InternetDetailViewController: UIViewController
     
     private func loadPDF() -> Void
     {
-        if let contentPDF = Bundle.main.url(forResource: "Your PDF Name HERE", withExtension: "pdf", subdirectory: nil, localization: nil)
+        if let contentPDF = Bundle.main.url(forResource: "InternetScreenTopics", withExtension: "pdf", subdirectory: nil, localization: nil)
         {
             let requestedPDF = NSURLRequest(url: contentPDF)
             webViewer.load(requestedPDF as URLRequest)

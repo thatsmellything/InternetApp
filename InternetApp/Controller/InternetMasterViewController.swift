@@ -17,9 +17,9 @@ public class InternetMasterViewController: UITableViewController
     private func setupDetailContents() -> Void
     {
         internetTopics = [
+        "Internet Definitions📖",
         "Standard Search Engine",
         "Social Media",
-        "Internet Definitions📖",
         "AP CSP",
         "Canyons District",
         "CTECH"
@@ -66,6 +66,11 @@ public class InternetMasterViewController: UITableViewController
         }
         
         //Mark: - Table View
+    
+    public override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int
+    {
+        return addresses.count
+    }
         
         public override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
         {
